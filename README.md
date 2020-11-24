@@ -1,8 +1,8 @@
 # dubbo-go-demo
 
 ### 简介
-  Dubbo-go-demo为解决 中小型团队快速了解与使用
-  初衷当初所在团队需要解决Go团队与Java团队dubbo服务互通的问题，那么Dubbo-go成为团队首选。
+  dubbo-go-demo 解决团队快速了解与使用的问题<br>
+  当初所在团队需要解决Go团队与Java团队dubbo服务互通的问题，那么dubbo-go成为团队首选。
 
 ### 环境需求
 * \>= go 1.14
