@@ -23,7 +23,7 @@
 ### 生产端代码架构流程
 ![example-2](https://github.com/MengyangRen/dubbo-go-demo/blob/gin-dubbo-go-consumer/doc/example-02.jpg)
 
-###其他/思考
+### 其他/思考
   <b>以上代码架构流程图（排除注册中心）</b><br>
   对于刚入Golang坑普通微服务开发者<br>
   熟悉Dubbo-go的过程中也发现它的易用性的问题，它的入门成本较高,把很多对它感兴趣团队挡在了门外<br>
