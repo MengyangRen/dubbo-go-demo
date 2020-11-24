@@ -1,0 +1,5 @@
+go.sum
+target/
+log/
+cache/
+app/__debug_bin
