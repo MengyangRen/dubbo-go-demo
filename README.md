@@ -12,9 +12,10 @@
 * nacos/nacos-server
 
 ### 分支说明
+```code
  分支: gin-dubbo-go-consumer（消费端） 
  分支: dubbo-go-producer     (生产端)
-
+```
 ### 组成说明
   * 1.Docker-compose搭建nacos-server
   * 2.Dubbo-go消费端与Gin框架进行整合与代码分层架构设计（适合中型业务型服务） 
@@ -28,11 +29,12 @@
 ![example-2](https://github.com/MengyangRen/dubbo-go-demo/blob/gin-dubbo-go-consumer/doc/example-02.jpg)
 
 ### 其他/思考
-  <font color="#dd0000">*以上代码架构流程图(排除注册中心)*</font><br>
+  <font color="#dd0000">*以上代码架构流程图(排除注册中心)*</font>
   对于刚入Golang坑普通微服务开发者<br>
   熟悉Dubbo-go的过程中也发现它的易用性的问题，它的入门成本较高,把很多对它感兴趣团队挡在了门外<br>
   另外团队内部推广也成了很大的问题，主要为资料少，成熟案例较少 <br>
   为此编写Dubbo-go-demo能快速让团队内部能正确使用与快速熟悉  <br>
+
   [基础调试环境配置](https://github.com/MengyangRen/dubbo-go-demo/blob/gin-dubbo-go-consumer/doc/example.md)
 
 
