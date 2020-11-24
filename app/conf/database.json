@@ -1,0 +1,10 @@
+{
+  "host": "127.0.0.1",
+  "port": "3306",
+  "user": "root",
+  "pwd": "c4f186b9e03812*!",
+  "db_name": "demo",
+  "max_open":"100",
+  "max_idle":"10",
+  "life_time":"+3s"
+}
