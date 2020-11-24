@@ -1,0 +1,262 @@
+{
+	"id": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+	"name": "Gin.local",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "dubbo-go-demo",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"order": [
+				"cf2e8be2-b3c9-cdd0-f308-fd7d87d44f64",
+				"a8cb738a-8937-1dd2-d1ac-1667d87f5805",
+				"d35059f6-4338-5783-a163-0d7ac272c3f9",
+				"79f07079-01ed-a657-9c85-45fbc762e0ec",
+				"7b4367d6-825e-b98a-225d-d7a2dbb20cb8"
+			],
+			"owner": "12893900",
+			"folders_order": [],
+			"id": "2e42873c-5c32-bb67-cb78-f93601ff867b"
+		}
+	],
+	"folders_order": [
+		"2e42873c-5c32-bb67-cb78-f93601ff867b"
+	],
+	"timestamp": 0,
+	"owner": "12893900",
+	"public": false,
+	"requests": [
+		{
+			"id": "79f07079-01ed-a657-9c85-45fbc762e0ec",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{api}}/v1/dobubo-demo/user?id=18825",
+			"folder": "2e42873c-5c32-bb67-cb78-f93601ff867b",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "18825",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "唐伯虎",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addr",
+					"value": "四川省阆中市极限小区2-14w3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606193680386,
+			"name": "更新用户",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"responses": []
+		},
+		{
+			"id": "7b4367d6-825e-b98a-225d-d7a2dbb20cb8",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{api}}/v1/dobubo-demo/user?id=116843",
+			"folder": "2e42873c-5c32-bb67-cb78-f93601ff867b",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "116843",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1605846405783,
+			"name": "销毁用户",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"responses": []
+		},
+		{
+			"id": "a8cb738a-8937-1dd2-d1ac-1667d87f5805",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{api}}/v1/dobubo-demo/user",
+			"folder": "2e42873c-5c32-bb67-cb78-f93601ff867b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "vincent.ren",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addr",
+					"value": "四川成都市四川大学望江校区",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "city",
+					"value": "成都市",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "url",
+					"value": "www.baidu.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "phone",
+					"value": "13881741247",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "vincent.ren@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "introduce",
+					"value": "how are you!",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1605772764790,
+			"name": "创建用户",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"responses": []
+		},
+		{
+			"id": "cf2e8be2-b3c9-cdd0-f308-fd7d87d44f64",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{api}}/v1/dobubo-demo/users?page=1&limit=20",
+			"folder": "2e42873c-5c32-bb67-cb78-f93601ff867b",
+			"queryParams": [
+				{
+					"key": "page",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "20",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": "tests[\"http状态协议码200\"] = responseCode.code === 200;\ntests[\"请求延迟小于500ms\"] = responseTime < 500;\nvar jsonData = JSON.parse(responseBody);\ntests[\"请求正常\"] = jsonData.code === 200;\n//postman.setEnvironmentVariable(\"api_token\", jsonData.result.api_token);\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606193655906,
+			"name": "用户列表",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"responses": []
+		},
+		{
+			"id": "d35059f6-4338-5783-a163-0d7ac272c3f9",
+			"headers": "",
+			"headerData": [],
+			"url": "http://{{api}}/v1/dobubo-demo/user?id=18833",
+			"folder": "2e42873c-5c32-bb67-cb78-f93601ff867b",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "18833",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1605846407556,
+			"name": "查询用户",
+			"description": "",
+			"collectionId": "05d035b1-5f94-b401-da4d-d6ca5b2dc00c",
+			"responses": []
+		}
+	]
+}
