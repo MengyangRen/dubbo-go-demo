@@ -29,7 +29,7 @@
 ![example-2](https://github.com/MengyangRen/dubbo-go-demo/blob/gin-dubbo-go-consumer/doc/example-02.jpg)
 
 ### 其他/思考
-  <font color="#dd0000">*以上代码架构流程图(排除注册中心)*</font>
+  <font color="#dd0000">以上代码架构流程图(排除注册中心)</font><br>
   对于刚入Golang坑普通微服务开发者<br>
   熟悉Dubbo-go的过程中也发现它的易用性的问题，它的入门成本较高,把很多对它感兴趣团队挡在了门外<br>
   另外团队内部推广也成了很大的问题，主要为资料少，成熟案例较少 <br>
