@@ -1,9 +1,9 @@
 package service
 
 import (
-	"cloudlive/exception"
-	dnc "cloudlive/registry/dnc/app"
 	"context"
+	"gin-dubbogo-consumer/exception"
+	dnc "gin-dubbogo-consumer/registry/dnc/app"
 )
 
 /**

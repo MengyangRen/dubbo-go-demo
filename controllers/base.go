@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"cloudlive/exception"
 	"fmt"
+	"gin-dubbogo-consumer/exception"
 )
 
 type BaseController struct{}

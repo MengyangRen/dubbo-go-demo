@@ -1,7 +1,7 @@
 package dnc
 
 import (
-	"cloudlive/util"
+	"gin-dubbogo-consumer/util"
 
 	hessian "github.com/apache/dubbo-go-hessian2"
 	"github.com/apache/dubbo-go/config"
@@ -21,7 +21,7 @@ const (
 
 func init() {
 	config.SetConsumerService(UserPvder)
-	
+
 	hessian.RegisterPOJO(&User{})
 
 	hessian.RegisterPOJO(&UserPaginationQ{})

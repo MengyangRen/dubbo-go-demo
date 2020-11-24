@@ -1,7 +1,6 @@
-module cloudlive
+module  gin-dubbogo-consumer
 
 go 1.14
-
 require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.614
 	github.com/apache/dubbo-go v1.5.4

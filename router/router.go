@@ -1,7 +1,7 @@
 package router
 
 import (
-	"cloudlive/controllers"
+	"gin-dubbogo-consumer/controllers"
 
 	"github.com/gin-gonic/gin"
 )

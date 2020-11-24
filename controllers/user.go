@@ -15,8 +15,8 @@ package controllers
  *
  */
 import (
-	"cloudlive/filter"
-	"cloudlive/service"
+	"gin-dubbogo-consumer/filter"
+	"gin-dubbogo-consumer/service"
 
 	"github.com/gin-gonic/gin"
 )

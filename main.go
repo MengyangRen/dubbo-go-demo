@@ -1,8 +1,9 @@
 package main
 
 import (
-	"cloudlive/router"
 	"encoding/json"
+
+	"gin-dubbogo-consumer/router"
 
 	"gitlab.stagingvip.net/publicGroup/public/common"
 )
@@ -12,8 +13,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
 	var jsonConf map[string]string
-	//解析json格式
 	err = json.Unmarshal(confByte, &jsonConf)
 	if err != nil {
 		panic(err)
