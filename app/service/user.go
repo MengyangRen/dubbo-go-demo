@@ -1,7 +1,7 @@
 package service
 
 import (
-	"dev-dubbo-producer/app/model"
+	"dubbo-go-producer/app/model"
 	"strconv"
 )
 

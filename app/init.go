@@ -37,8 +37,8 @@ import (
 	_ "github.com/apache/dubbo-go/registry/protocol"
 	_ "github.com/go-sql-driver/mysql"
 
-	"dev-dubbo-producer/app/processor"
-	"dev-dubbo-producer/app/util"
+	"dubbo-go-producer/app/processor"
+	"dubbo-go-producer/app/util"
 )
 
 var (

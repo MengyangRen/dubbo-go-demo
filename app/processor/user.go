@@ -2,7 +2,7 @@ package processor
 
 import (
 	"context"
-	"dev-dubbo-producer/app/service"
+	"dubbo-go-producer/app/service"
 
 	"time"
 )
